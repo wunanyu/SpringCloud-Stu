@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+     uri: http://192.168.50.135:8888
+     profile: dev
+     label: master
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - "*" 

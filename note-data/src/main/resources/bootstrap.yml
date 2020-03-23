@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: notedata
+  cloud:
+    config:
+     uri: http://192.168.50.135:8888
+     profile: dev     label: master    refresh:      enabled: true
+management:  endpoints:    web:      exposure:        include:        - "*"          #server:#  port: 8500
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://192.168.50.135:8101/eureka/
