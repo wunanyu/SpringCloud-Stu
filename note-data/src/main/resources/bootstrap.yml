@@ -10,3 +10,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://192.168.50.135:8101/eureka/
+  instance:
+    hostname: ${spring.cloud.client.ip-address} #springCloud 自己获取ip
+    instance-id: ${eureka.instance.hostname}:${server.port}

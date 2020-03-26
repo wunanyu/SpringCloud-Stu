@@ -4,12 +4,14 @@ target/
 !**/src/main/**
 !**/src/test/**
 
+### workspace ###
 /Zero_java/
 /sadf/
 /note/
 /nota-data/
 /demo/
 /assembly/
+/javabasis/
 /.metadata/
 ### STS ###
 .apt_generated
@@ -36,3 +38,4 @@ build/
 
 ### VS Code ###
 .vscode/
+/RamdonGo/

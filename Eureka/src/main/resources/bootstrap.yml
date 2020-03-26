@@ -9,4 +9,6 @@ management:
     web:
       exposure:
         include:
-        - "*" 
+        - "*"
+        
+eureka:  server:    renewal-percent-threshold: 0.45
